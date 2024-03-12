@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  align-content: center;
 }
 
 .App-logo {
@@ -35,4 +36,30 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.YourNotes{
+  text-decoration: none;
+  font-size: 18px;
+  margin-right: 50px;
+  color: inherit;
+}
+
+.AllNotes{
+  text-decoration: none;
+  font-size: 18px;
+  margin-right: 10px;
+  color: inherit;
+}
+
+YourNotes:focus,
+YourNotes:active {
+  outline: none;
+  color: inherit;
+}
+
+AllNotes:focus,
+AllNotes:active {
+  outline: none;
+  color: inherit;
 }
